@@ -1,0 +1,93 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Arial' , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main-title
+{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#main
+{
+    width: 100%;
+    padding: 30px;
+}
+#main section
+{
+    width: 90%;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: 1px solid #000;
+    position: relative;
+}
+#main section h2
+{
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #000;
+}
+#main section p
+{
+    margin-top: 40px;
+    padding: 5px;
+}
+#main .sec1
+{
+    background-color: #e84118;
+}
+#main .sec2
+{
+    background-color: #00a8ff;
+}
+#main .sec3
+{
+    background-color: #9c88ff;
+}
+#main section .sub-title1
+{
+    background-color: #6F1E51;
+    color: #fff;
+}
+#main section .sub-title2
+{
+    background-color: #192a56;
+    color: #fff;
+}
+#main section .sub-title3
+{
+    background-color: #574b90;
+    color: #fff;
+}
+/********** Large devices **********/
+@media (min-width: 992px) 
+{
+    #main section.large
+   {
+    width: 30.33%;
+    float: left;
+    margin: 0 1.5%;
+   }
+}
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #main section.meduim
+   {
+    width: 47%;
+    float: left;
+    margin: 10px 1.5%;
+   }
+   #main section.sec3
+   {
+       width: 97%;
+   }
+}
